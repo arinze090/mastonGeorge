@@ -1,0 +1,23 @@
+.experience{
+    display: flex;
+    flex-direction: row;
+}
+
+.years{
+    display: flex;
+    flex-direction: column;
+    margin-right: 44px;
+}
+
+.years > p{
+    font-size: 14px;
+    margin-bottom: 8px;
+    color: black;
+}
+
+.years > h1{
+    font-size: 48px;
+    margin-top: -5px;
+    color: black;
+    font-weight: 700;
+}
