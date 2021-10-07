@@ -3,8 +3,7 @@ import { FaBars } from 'react-icons/fa';
 import { IconContext } from 'react-icons/lib';
 import { animateScroll as scroll } from 'react-scroll';
 
-import { Nav, NavbarContainer, NavLogo, MobileIcon, NavItem, NavMenu, NavLinks, NavBtn, NavBtnLink } from './NavbarElements';
-import {Button} from '../ButtonElements';
+import { Nav, NavbarContainer, NavLogo, MobileIcon, NavItem, NavMenu, NavLinks } from './NavbarElements';
 
 
 function Navbar({ toggle }) {
@@ -22,11 +21,8 @@ function Navbar({ toggle }) {
         window.addEventListener('scroll', changeNav)
     }, []);
 
-    const [hover, setHover] = useState(false);
 
-    const onHover = () => {
-        setHover(!hover)
-    }
+    
 
     const toggleHome = () => {
         scroll.scrollToTop();

@@ -13,7 +13,6 @@ function Testimonial() {
                     <img src={require('../images/Testimonial.png')} alt="" />
                 </div>
                 <div className="round">
-                    {/* <h1 className='quote'>""</h1> */}
                     <h1 className='dream'>Dream house isn’t a dream anymore</h1>
                     <p>Semper arcu mauris aliquam lacus. Massa erat vitae ultrices pharetra scelerisque. Ipsum, turpis facilisis tempor pulvinar.</p>
                     <h1 className='name'>Gbenga Adeyinka</h1>

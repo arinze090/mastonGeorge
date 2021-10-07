@@ -1,7 +1,4 @@
 import React, {useState} from 'react';
-// import { Button } from 'react-scroll';
-import Video from '../videos/video.mp4';
-import Video1 from '../videos/video1.mp4';
 import Video2 from '../videos/video2.mp4';
 
 import {

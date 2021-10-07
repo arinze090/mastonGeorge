@@ -1,11 +1,10 @@
 import React from 'react';
 import './info.css';
-import { Button } from '../ButtonElements';
 
-import { InfoContainer, InfoWrapper, InfoRow, Column1, Column2, TextWrapper, ExpTop, Heading, Subtitle, ExpWrapper, ExpWrapper2, ImgWrap, Img, ExpTop2} from './InfoElements';
+import { InfoContainer, InfoWrapper, InfoRow, Column1, Column2, TextWrapper, Heading, Subtitle,   ImgWrap, Img, } from './InfoElements';
 
 
-function InfoSection({lightText, lightBg, imgStart, years, headline, description, darkText, number, id, img, alt, dark, dark2, primary}) {
+function InfoSection({lightText, lightBg, imgStart, headline, description, darkText, number, id, img, alt, }) {
     return (
         <>
             <InfoContainer lightBg={lightBg} id={id}>
@@ -13,15 +12,9 @@ function InfoSection({lightText, lightBg, imgStart, years, headline, description
                     <InfoRow imgStart={imgStart}>
                         <Column1>
                             <TextWrapper>
-                                {/* <TopLine>{topLine}</TopLine> */}
                                 <Heading lightText={lightText}>{headline}</Heading>
                                 <Subtitle darkText={darkText}>{description}</Subtitle>
-                                {/* <ExpWrapper>
-                                    <ExpWrapper2>
-                                        <ExpTop>{years}</ExpTop>
-                                        <ExpTop2>{number}</ExpTop2>
-                                    </ExpWrapper2>
-                                </ExpWrapper> */}
+                            
                                 <div className="experience">
                                     <div className="years">
                                         <p>YEARS EXPERIENCE</p>

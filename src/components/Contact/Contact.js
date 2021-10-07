@@ -19,7 +19,6 @@ function Contact({
   lightText,
   lightBg,
   imgStart,
-  years,
   headline,
   description,
   darkText,
@@ -27,9 +26,6 @@ function Contact({
   id,
   img,
   alt,
-  dark,
-  dark2,
-  primary,
 }) {
   const [hover, setHover] = useState(false);
 
